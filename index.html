@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>   Jack+Chelsey</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js' type='text/javascript'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' type='text/css' />
+    <script src='js/map.js' type='text/javascript' ></script>
+    <staticContent><mimeMap fileExtension=".svg" mimeType="image/svg+xml" /></staticContent>
+
+    
+</head>
+<body>
+
+
+    
+    
+    
+    
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">
+                
+                
+    <!-- Header
+    ================================================= -->
+                
+                <a id="Logo" href="index.html"> <img id="JC" src="images/jc-logo.png"/></a>
+        
+    <div class="wrapper">
+                <a class="scroll" href="#StoryAnchor"> <img id="Ring-head" src="images/blue-chalk-rings.png"/></a>
+                <a class="scroll" href="#LocationAnchor"> <img id="globe-head" src="images/blue-chalk-globe.png"/></a>
+                <a class="scroll" href="#ScheduleAnchor"> <img id="calendar-head" src="images/chalk-calendar.png"/></a>
+                <a class="scroll" href="#RSVPAnchor"> <img id="Envelope-head" src="images/blue-chalk-rsvp.png"/></a>
+                <a class="scroll" href="#RegistryAnchor"> <img id="gift-head" src="images/blue-chalk-gift.png"/></a>
+    </div>
+			     <hr />
+		
+
+    <!-- Main Page
+    ================================================ -->
+                
+    <div class="container-invite">
+        <img id="JackandChelsey" src="images/jc.png"/>
+        <img id="Married" src="images/secret-married.png"/>
+        <img id="Reception" src="images/reception.png"/>
+        <img id="Honey-Run" src="images/honey-run.png"/>
+    </div>  
+        
+    
+    <div class="container-gap"></div>
+         
+     
+    <!-- Story Anchor
+    ================================================ -->
+        
+    <b id="StoryAnchor"><div class="Story">
+        <h3>Story<img id="Rings" src="images/blue-chalk-rings.png"/></h3>
+        
+    </br>
+            
+    <div class="timeline">
+    
+        <ul class="events1">
+            <li id="minigolf">First met<br><em>(CA)</em></br>
+                <img id="Golf" src="images/Golf.png"/>
+            </li>
+        
+            <li id="google">Spent all day on Hangouts<br><em>(DC and UK)</em></br>
+                <img id="hangouts" src="images/hangouts.png"/>
+            </li>
+        
+            <li id="married">Secret Married<br><em>(DC)</em></br>
+                <img id="wedding" src="images/Wedding.png"/>
+            </li>
+        </ul>
+
+
+        <ul class="intervals">
+            <li class="first">9-12</li><li>12-12</li><li>3-13</li><li>6-13</li><li>9-13</li><li>12-13</li><li class="last">&infin;</li>
+        </ul>
+
+    
+    
+        <ul class="events2">
+            <li id="vacation">Had the best dates<br><em> (CA)</em></br>
+                <img id="Yosemite" src="images/yosemite.png"/>
+            </li>
+            
+            <li id="padres">Jack's finally back in the US <br><em>(DC)</em></br>
+                <img id="Baseball" src="images/Baseball.png"/>
+            </li>
+
+            <li id="vineyard">Living happily ever after <br><em>(DC)</em></br>
+                <img id="Winery" src="images/winery.png"/>
+            </li>   
+        </ul>
+
+
+    
+    </div>
+                
+    
+
+            
+    <div class="Arrow1">            
+        <a class="scroll" href="#LocationAnchor"> <img id="Arrow1-Down" src="images/chalk-arrow-down.png"/></a>
+        <a class="scroll" href="#Logo"> <img id="home" src="images/home.png"/></a>
+        <a class="scroll" href="#Logo"> <img id="Arrow1-Up" src="images/chalk-arrow-up.png"/></a>
+    </div> 
+
+    </div>
+    </b>
+        
+        
+    <div class="container-gap"></div>
+        
+      
+    <!-- Location Anchor
+    ================================================ -->
+                    
+    <b id="LocationAnchor"><div class="location">
+        <h3>Location <img id="globe" src="images/blue-chalk-globe.png"/></h3>
+         
+    </br>
+    
+    <div class='map-container'>
+    <div id='map'></div>
+    </div>
+    
+        
+                
+    <div class="Arrow1">            
+        <a class="scroll" href="#ScheduleAnchor"> <img id="Arrow2-Down" src="images/chalk-arrow-down.png"/></a>
+        <a class="scroll" href="#Logo"> <img id="home" src="images/home.png"/></a>
+        <a class="scroll" href="#StoryAnchor"> <img id="Arrow2-Up" src="images/chalk-arrow-up.png"/></a>
+    </div>
+        
+    </div>    
+    </b>
+		
+        
+    <div class="container-gap"></div>
+       
+
+   <!-- Schedule Anchor
+    ================================================ -->
+
+    <!-- AddThisEventJS -->
+    <script type="text/javascript" src="http://js.addthisevent.com/atemay.js"></script>    
+        
+    <b id="ScheduleAnchor"><div class="schedule">
+        <h3>Schedule <img id="calendar" src="images/chalk-calendar.png"/></h3>
+			
+            <p>4:00pm: Reception Begins</p>
+            <p>6:00pm: Dinner</p>
+            <p>7:30pm: Cake</p>
+            <p>8:00pm: Bonfire</p>
+            <p>10:00pm: Send Off</p>
+            
+    <a href="http://example.com/link-to-your-event" title="Add to Calendar" class="addthisevent">
+            Add to Calendar
+                <span class="_start">09-20-2014 16:00:00</span>
+                <span class="_end">09-20-2014 22:00:00</span>
+                <span class="_zonecode">6</span>
+                <span class="_summary">Jack and Chelsey's Reception</span>
+                <span class="_description"><p>4:00pm: Reception Begins
+                        </br>6:00pm: Dinner
+                        </br>7:30pm: Cake
+                        </br>8:00pm: Bonfire
+                        </br>10:00pm: Send Off</p> </span>
+                <span class="_location">Honeyrun Road Covered Bridge: 1670 Honey Run Road, Chico, CA</span>
+                <span class="_organizer">The Aldridge's</span>
+                <span class="_organizer_email">Mullins.Chelsey@gmail.com</span>
+                <span class="_facebook_event">http://www.facebook.com/events/160427380695693</span>
+                <span class="_all_day_event">true</span>
+                <span class="_date_format">DD/MM/YYYY</span>
+    </a>
+            
+    
+        
+    <div class="Arrow1">            
+            <a class="scroll" href="#RSVPAnchor"> <img id="Arrow3-Down" src="images/chalk-arrow-down.png"/></a>
+            <a class="scroll" href="#Logo"> <img id="home" src="images/home.png"/></a>
+            <a class="scroll" href="#LocationAnchor"> <img id="Arrow3-Up" src="images/chalk-arrow-up.png"/></a>
+    </div>
+    
+    </div>
+    </b>
+
+        
+    <div class="container-gap"></div>    
+      
+
+
+    <!-- RSVP Anchor
+    ================================================ -->
+        
+    <b id="RSVPAnchor"><div class="RSVP">
+        <h3>RSVP<img id="Envelope" src="images/blue-chalk-rsvp.png"/></h3>
+           
+        
+    <form>
+        <p>
+        First Name: <Input Type="text" Name="Firstname">
+        Last Name: <Input Type="text" name="LastName">
+        Guests Over the Age of 10: <select> 
+                <Option Value="0">0</Option>
+                <Option Value="1">1</Option>
+                <Option Value="2">2</Option>
+                <Option Value="3">3</Option>
+                <Option Value="4">4</Option>
+                <Option Value="5">5</Option></select> 
+        Guests Under the Age of 10: <select> 
+                <Option Value="0">0</Option>
+                <Option Value="1">1</Option>
+                <Option Value="2">2</Option>
+                <Option Value="3">3</Option>
+                <Option Value="4">4</Option>
+                <Option Value="5">5</Option></select>
+        Password: <input type="password" name="Gremlin">
+        <form name="input" action="http://forms.brace.io/Mullins.Chelsey@gmail.com" method="get"/>
+        <input type="submit" value="Submit">    
+        
+    </form>
+    
+    
+        
+    
+    <div class="Arrow1">            
+        <a class="scroll" href="#RegistryAnchor"> <img id="Arrow4-Down" src="images/chalk-arrow-down.png"/></a>
+        <a class="scroll" href="#Logo"> <img id="home" src="images/home.png"/></a>
+        <a class="scroll" href="#ScheduleAnchor"> <img id="Arrow4-Up" src="images/chalk-arrow-up.png"/></a>
+    </div>
+    
+    </div>        
+    </b>
+        
+
+    <div class="container-gap"></div>    
+        
+
+    <!-- Registry Anchor
+    ================================================ -->
+        
+    <b id="RegistryAnchor"><div class="Registry">
+        <h3>Registry<img id="gift" src="images/blue-chalk-gift.png"/></h3>
+            
+       
+			
+    <a href="http://www.target.com/np/wedding-registry/-/N-564tj?registryType=R&originalEventType=WD&lnk=Other_RegGenPortal_X1Y2|X1Y2|T:RegistryGenericPortal|C:&intc=606052|nullOther_RegGenPortal_X1Y1|X1Y1|T:RegistryGenericPortal|C:&intc=978551|null"><img id="Target" src="images/target.png"/></a>
+            
+        </br>
+                
+    <a href="http://www.bedbathandbeyond.com/store/page/Registry"><img id="Beyond" src="images/Beyond.png"/></a> 
+        
+        </br>    
+            
+    <a href="http://http://www.crateandbarrel.com/gift-registry/"><img id="Crate" src="images/Crate.png"/></a>
+		
+   
+        
+            
+    <div class="Arrow1">            
+        <a class="scroll" href="#Logo"> <img id="home" src="images/home.png"/></a>
+        <a class="scroll" href="#RSVPAnchor"> <img id="Arrow5-Up" src="images/chalk-arrow-up.png"/></a>
+    
+    </div>
+    
+    </div>    
+    </b>
+        
+    <div class="container-gap"></div>
+        
+	
+    
+
+
+<!-- End Document
+================================================== -->
+</div><!-- container -->
+</body>
+</html>

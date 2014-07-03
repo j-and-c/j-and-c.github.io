@@ -1,0 +1,160 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.703953,
+                    39.728822
+                    
+                ]
+            },
+            "properties": {
+                "name": "Honey Run Covered Bridge",
+                "description": "All events will be held at the historic covered bridge.",
+                "address": "1670 Honey Run Road",
+                "image": "images/Bridge.png",
+                "icon": {
+                    "iconUrl": "images/Balloon.png",
+                    "iconSize": [30, 40],
+                    "className": "dot"
+                    }
+                
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.840318,
+                    39.728212
+                    
+                ]
+            },
+            "properties": {
+                "name": "Hotel Diamond",
+                "description": "If you're looking for a place to stay during the reception, your best bet is likely this hotel located in the heart of downtown Chico.",
+                "address": "328 Broadway Street",
+                "image": "images/Diamond.png",
+                "icon": {
+                    "iconUrl": "images/Hotel.png",
+                    "iconSize": [30, 40],
+                    "className": "dot"
+                    }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.836172,
+                    39.727573
+                    
+                ]
+            },
+            "properties": {
+                "name": "Shubert's Ice Cream and Candy",
+                "description": "Voted one of the best handmade ice cream and candy shops in America, it's definitely worth a visit if you're here from out of town.",
+                "address": "628 Wall Street",
+                "image": "images/Shuberts.png",
+                "icon": {
+                    "iconUrl": "images/Food.png",
+                    "iconSize": [30, 40],
+                    "className": "dot"
+                    }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.842501,
+                    39.728971
+                    
+                ]
+            },
+            "properties": {
+                "name": "Madison Bear Garden",
+                "description": "For good beer and better burgers, locals like to visit the Bear.",
+                "address": "316 W 2nd Street",
+                "image": "images/Bear.png",
+                "icon": {
+                    "iconUrl": "images/Food.png",
+                    "iconSize": [30, 40],
+                    "className": "dot"
+                    }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.815753,
+                    39.724697
+                    
+                ]
+            },
+            "properties": {
+                "name": "Sierra Nevada Brewing Company",
+                "description": "To find out how the best beer in America is made, look no further than Sierra Nevada Brewery.",
+                "address": "1025 E 20th Street",
+                "image": "images/Brewery.png",
+                "icon": {
+                    "iconUrl": "images/Beer.png",
+                    "iconSize": [30, 40],
+                    "className": "dot"
+                    }
+            }
+        },
+        {
+                    "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.854684,
+                    39.799244
+                    
+                ]
+            },
+            "properties": {
+                "name": "Chico Municipal Airport",
+                "description": "Although there is an airport in Chico, most locals fly directly into the Sacramento Airport since it's only about an hour out of town.",
+                "address": "150 Airpark Boulevard",
+                "image": "images/Airport.png",
+                "icon": {
+                    "iconUrl": "images/Plane.png",
+                    "iconSize": [30, 40],
+                    "className": "dot"
+                    }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.843289,
+                    39.732754
+                    
+                ]
+            },
+            "properties": {
+                "name": "Bidwell Mansion",
+                "description": "Visit the historic home of John Bidwell, the town founder.",
+                "address": "525 Esplanade",
+                "image": "images/Mansion.png",
+                "icon": {
+                    "iconUrl": "images/Tour.png",
+                    "iconSize": [30, 40],
+                    "className": "dot"
+                    }
+            }
+        }
+    ]
+}
