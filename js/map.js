@@ -2,7 +2,7 @@
 $(document).ready(function () {
     'use strict';
     
-    var map = L.mapbox.map('map', 'examples.map-i86nkdio', {center: [39.730227, -121.772449],
+    var map = L.mapbox.map('map', 'jaldridge.im7d8lbj', {center: [39.730227, -121.772449],
                                                             zoom: 10,
                                                             minZoom: 5,
                                                             maxZoom: 16
