@@ -481,14 +481,16 @@ div.vertical-line {
 
 .intervals li {
     font-size: 15px;
+    line-height: 15px;
     color: #00FFBF;
     margin: 0 0;
-    padding: 0 0;
+    padding: 3px 0;
     text-align: center;
     width: 14.28%;
     display: inline-block;
     border-left: dotted;
     border-right: dotted;
+    background-color: rgba(255,255,255,0.2);;
 }
 
 .Arrow1 {
@@ -685,12 +687,12 @@ div.vertical-line {
 
 #padres {
     display: inline-block;
-    width: 15%;
+    width: 19%;
     height: auto;
     text-align: center;
     border-top: dotted;
     vertical-align: top;
-    margin-left: 40%;
+    margin-left: 38%;
 }
 
 #padres:hover {
@@ -722,12 +724,11 @@ div.vertical-line {
 
 #vineyard {
     display: inline-block;
-    width: 19%;
+    width: 18%;
     height: auto;
     text-align: center;   
     border-top: dotted;
     vertical-align: top;
-    margin-left: 1%;
     float: right;
 }
 
