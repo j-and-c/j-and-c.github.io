@@ -498,10 +498,7 @@ div.vertical-line {
     padding: 30px 35%;
 }
 
-#Happy Ever After {
-    a img { display: none; }
-    a:hover img { display:block; }
-}
+
 
 .Arrow1 img {
     display:block;  
@@ -832,9 +829,16 @@ div.vertical-line {
 #adios:hover ~ #sendoff {
     opacity: 1;
 }
+
 form {
     font-family: A song for jennifer;
     src: url("/fonts/a song for jennifer.ttf")
     font-weight: normal;
     font-size: 20px !important;    
+}
+
+@media only screen and (max-width: 800px) {
+    #games, #meal, #dessert, #fire, #sendoff, #frame {
+        display: none;
+    }
 }
