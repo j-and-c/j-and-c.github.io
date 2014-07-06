@@ -746,10 +746,9 @@ div.vertical-line {
 
 #games {
     position: absolute;
-    top: 30%;
-    left: 300px;
-    max-height: 150px;
-    max-width: 150px;
+    top: 70px;
+    left: 400px;
+    width: 250px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -763,10 +762,9 @@ div.vertical-line {
 
 #meal {
     position: absolute;
-    top: 30%;
-    left: 300px;
-    max-height: 150px;
-    max-width: 150px;
+    top: 70px;
+    left: 400px;
+    width: 250px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -780,10 +778,9 @@ div.vertical-line {
 
 #dessert {
     position: absolute;
-    top: 30%;
-    left: 300px;
-    max-height: 150px;
-    max-width: 150px;
+    top: 70px;
+    left: 400px;
+    width: 250px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -797,10 +794,9 @@ div.vertical-line {
 
 #fire {
     position: absolute;
-    top: 30%;
-    left: 300px;
-    max-height: 150px;
-    max-width: 150px;
+    top: 70px;
+    left: 400px;
+    width: 250px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -814,15 +810,23 @@ div.vertical-line {
 
 #sendoff {
     position: absolute;
-    top: 40%;
-    left: 300px;
-    max-height: 150px;
-    max-width: 150px;
+    top: 70px;
+    left: 400px;
+    width: 250px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+}
+
+#frame {
+    position: absolute;
+    top: 22px;
+    left: 325px;
+    width: 380px;
+    height: 470px;
+    opacity: .7;
 }
 
 #adios:hover ~ #sendoff {
