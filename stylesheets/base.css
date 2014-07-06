@@ -750,25 +750,32 @@ div.vertical-line {
     left: 300px;
     max-height: 150px;
     max-width: 150px;
-    display: none; 
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 #juegos:hover ~ #games {
-    display: block;
-    
+    opacity: 1;
 }
 
 #meal {
-        position: absolute;
+    position: absolute;
     top: 30%;
     left: 300px;
     max-height: 150px;
     max-width: 150px;
-    display: none;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 #cena:hover ~ #meal {
-    display: block;
+    opacity: 1;
 }
 
 #dessert {
@@ -777,11 +784,15 @@ div.vertical-line {
     left: 300px;
     max-height: 150px;
     max-width: 150px;
-    display: none;  
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 #pastel:hover ~ #dessert {
-    display: block;
+    opacity: 1;
 }
 
 #fire {
@@ -790,22 +801,30 @@ div.vertical-line {
     left: 300px;
     max-height: 150px;
     max-width: 150px;
-    display: none; 
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 #fuego:hover ~ #fire {
-    display: block;
+    opacity: 1;
 }
 
 #sendoff {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 300px;
     max-height: 150px;
     max-width: 150px;
-    display: none; 
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 #adios:hover ~ #sendoff {
-    display: block;
+    opacity: 1;
 }
