@@ -20,20 +20,27 @@ $(document).ready(function(){
     
     
 
-$("#grem1, #grem2, #grem3, #grem4, #grem5").hide();
+
 $("#guest1, #guest2, #guest3, #guest4, #guest5").hide();
+$("#guest1, #guest2, #guest3, #guest4, #guest5").disabled = true;
+$("#grem1, #grem2, #grem3, #grem4, #grem5").hide();
+$("#grem1, #grem2, #grem3, #grem4, #grem5").disabled = true;
     
 $("#guests").change(function () {
 var selected = $("#guests option:selected").val();
 $("#guest1, #guest2, #guest3, #guest4, #guest5").hide();
+$("#guest1, #guest2, #guest3, #guest4, #guest5").disabled = true;
 $('#guest' + selected).show();
+$('#guest' + selected).disabled = false;
 });
 
 
 $("#gremlins").change(function () {
 var selected = $("#gremlins option:selected").val();
 $('#grem1, #grem2, #grem3, #grem4, #grem5').hide();
+$("#grem1, #grem2, #grem3, #grem4, #grem5").disabled = true;
 $('#grem' + selected).show();
+$('#grem' + selected).disabled = false;
 });
 
 });
