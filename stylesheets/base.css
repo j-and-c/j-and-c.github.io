@@ -740,3 +740,72 @@ div.vertical-line {
     -o-transition: color 0.2s ease-out;
     transition: color 0.2s ease-out;   
 }
+.schedule {
+    position: relative;
+}
+
+#games {
+    position: absolute;
+    top: 30%;
+    left: 300px;
+    max-height: 150px;
+    max-width: 150px;
+    display: none; 
+}
+
+#juegos:hover ~ #games {
+    display: block;
+    
+}
+
+#meal {
+        position: absolute;
+    top: 30%;
+    left: 300px;
+    max-height: 150px;
+    max-width: 150px;
+    display: none;
+}
+
+#cena:hover ~ #meal {
+    display: block;
+}
+
+#dessert {
+    position: absolute;
+    top: 30%;
+    left: 300px;
+    max-height: 150px;
+    max-width: 150px;
+    display: none;  
+}
+
+#pastel:hover ~ #dessert {
+    display: block;
+}
+
+#fire {
+    position: absolute;
+    top: 30%;
+    left: 300px;
+    max-height: 150px;
+    max-width: 150px;
+    display: none; 
+}
+
+#fuego:hover ~ #fire {
+    display: block;
+}
+
+#sendoff {
+    position: absolute;
+    top: 30%;
+    left: 300px;
+    max-height: 150px;
+    max-width: 150px;
+    display: none; 
+}
+
+#adios:hover ~ #sendoff {
+    display: block;
+}
