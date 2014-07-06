@@ -820,10 +820,10 @@ div.vertical-line {
 #frame {
     position: absolute;
     top: 22px;
-    left: 325px;
-    width: 380px;
-    height: 470px;
-    opacity: .7;
+    left: 333px;
+    width: 367px;
+    height: 466px;
+    opacity: .9;
 }
 
 #adios:hover ~ #sendoff {
