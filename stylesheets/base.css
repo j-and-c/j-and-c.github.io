@@ -743,9 +743,9 @@ div.vertical-line {
 
 #games {
     position: absolute;
-    top: 70px;
+    top: 83px;
     left: 400px;
-    width: 250px;
+    width: 200px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -759,9 +759,9 @@ div.vertical-line {
 
 #meal {
     position: absolute;
-    top: 70px;
+    top: 83px;
     left: 400px;
-    width: 250px;
+    width: 200px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -775,9 +775,9 @@ div.vertical-line {
 
 #dessert {
     position: absolute;
-    top: 70px;
+    top: 83px;
     left: 400px;
-    width: 250px;
+    width: 200px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -791,9 +791,9 @@ div.vertical-line {
 
 #fire {
     position: absolute;
-    top: 70px;
+    top: 83px;
     left: 400px;
-    width: 250px;
+    width: 200px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -807,9 +807,9 @@ div.vertical-line {
 
 #sendoff {
     position: absolute;
-    top: 70px;
+    top: 83px;
     left: 400px;
-    width: 250px;
+    width: 200px;
     opacity: 0;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -819,10 +819,10 @@ div.vertical-line {
 
 #frame {
     position: absolute;
-    top: 22px;
-    left: 333px;
-    width: 367px;
-    height: 466px;
+    top: 46px;
+    left: 345px;
+    width: 296px;
+    height: 372px;
     opacity: .9;
 }
 
@@ -837,7 +837,7 @@ form {
     opacity: .8;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 767px) {
     #games, #meal, #dessert, #fire, #sendoff, #frame {
         display: none;
     }
