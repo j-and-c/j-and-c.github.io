@@ -296,15 +296,13 @@ font-family: 'Walter Turncoat', cursive;
 
 
 p {
-    font-family: A song for jennifer;
-    src: url("/fonts/a song for jennifer.ttf")
+    font-family: 'Neucha', cursive;
     font-weight: normal;
     font-size: 26px !important;
 }
 
 li {
-    font-family: A song for jennifer;
-    src: url("/fonts/a song for jennifer.ttf")
+    font-family: 'Neucha', cursive;
     font-weight: normal;
     font-size: 15px;
 }
@@ -831,8 +829,7 @@ div.vertical-line {
 }
 
 form {
-    font-family: A song for jennifer;
-    src: url("/fonts/a song for jennifer.ttf")
+    font-family: 'Neucha', cursive;
     font-weight: normal;
     font-size: 20px !important;    
 }
