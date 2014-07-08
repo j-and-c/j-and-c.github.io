@@ -834,7 +834,7 @@ form {
     font-size: 20px !important;    
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 780px) {
     #games, #meal, #dessert, #fire, #sendoff, #frame {
         display: none;
     }
