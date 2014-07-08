@@ -55,8 +55,9 @@
     -webkit-box-sizing: border-box; 
     box-sizing: border-box;
  }
-
-
+html {
+font-family: 'Walter Turncoat', cursive;
+}
 
 
 /* #Basic Styles
@@ -79,8 +80,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #D1F0FF;
-		font-family: grutchshaded;
-        src: url("/fonts/grutchshaded.ttf")
+		font-family: 'Fredericka the Great', cursive;
 		font-weight: normal!important; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 30px; line-height: 50px; margin-bottom: 14px;}
