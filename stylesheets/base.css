@@ -299,12 +299,14 @@ p {
     font-family: 'Neucha', cursive;
     font-weight: normal;
     font-size: 26px !important;
+    opacity: .8;
 }
 
 li {
     font-family: 'Neucha', cursive;
     font-weight: normal;
     font-size: 15px;
+    opacity: .8;
 }
 
 li {
@@ -831,7 +833,8 @@ div.vertical-line {
 form {
     font-family: 'Neucha', cursive;
     font-weight: normal;
-    font-size: 20px !important;    
+    font-size: 20px !important; 
+    opacity: .8;
 }
 
 @media only screen and (max-width: 780px) {
